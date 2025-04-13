@@ -1,0 +1,628 @@
+#content-body {
+    background-color: #ffffff;
+    padding-top: 35px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-family: "proxima-nova-soft", verdana, sans-serif;
+}
+
+div {
+    font-size: 14px;
+}
+
+
+.wrapper-close {
+    float: right;
+}
+
+a {
+    color: #52bcec;
+}
+
+.sso-title-return-link > a {
+    color: #9396a2;
+}
+
+.sso-title-return-link {
+    padding-bottom: 15px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-family: "proxima-nova-soft", verdana, sans-serif;
+    width: 235px;
+    text-align: center;
+    color: #848d93;
+    padding-top: 15px;
+    font-size: 16px;
+}
+
+.sso-title-sub-text {
+    padding-bottom: 10px;
+    padding-top: 20px;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #333;
+    font-family: "proxima-nova-soft", verdana, sans-serif;
+}
+
+
+/*.required-star {
+    font-weight:bolder;
+    color:#fffa00;
+}*/
+
+.sso-ic-label {
+    font-family: "proxima-nova-soft",Verdana,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #9396a2;
+}
+
+.sso-ic-label-required {
+    font-family: "proxima-nova-soft", verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #9396a2;
+}
+
+.sso-no-data-panel-content {
+    font-family: "proxima-nova-soft", verdana, sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+.sso-option-desc {
+    font-family: "proxima-nova-soft", verdana, sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+/*.cblabel {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:26px;
+    font-style:italic;
+}*/
+
+.sso-title {
+    font-family: Verdana;
+    font-size: 24px;
+    color: #333;
+    font-weight: 500;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    /*border-bottom: solid 1px #333;*/
+}
+
+.sso-sidebar-sub-title {
+    font-family: "proxima-nova-soft", verdana, sans-serif;
+    font-size: 14px;
+    color: #9598a1;
+}
+
+.sso-sidebar-item {
+    font-family: "proxima-nova-soft", verdana, sans-serif;
+    font-size: 12px;
+    color: #9598a1;
+}
+
+    .sso-sidebar-item:hover, .sso-sidebar-item:focus {
+        color: #9598a1;
+    }
+
+.sso-sidebar-item-selected:hover, .sso-sidebar-item-selected:focus {
+    color: #ffffff !important;
+}
+
+.sso-sidear-item-selected {
+    font-family: "proxima-nova-soft", verdana, sans-serif;
+    font-size: 17px;
+    color: #64c55a;
+}
+
+.sso-theme-alternate-background {
+    background-color: #64c55a;
+    color: #ffffff;
+}
+
+.sso-item-first {
+    color: #52bcec;
+    font-weight: normal;
+}
+
+    .sso-item-first:hover, .sso-item-first:focus {
+        color: #52bcec
+    }
+
+.sso-item-rest {
+    color: #52bcec;
+}
+
+    .sso-item-rest:hover, .sso-item-rest:focus {
+        color: #52bcec;
+    }
+
+
+.sso-ic-table-mobile {
+    background-color: #ffffff;
+}
+
+.sso-ic-table {
+    background-color: #ffffff;
+}
+
+    .sso-ic-table > tbody > tr > td {
+        font-family: "proxima-nova-soft",Verdana,sans-serif;
+        font-size: 14px;
+        line-height: 1.42857;
+        color: #333;
+    }
+
+.ic-table tbody {
+    background-color: #ffffff !important;
+}
+
+.table > thead > tr > th {
+    color: #333 !important;
+    font-family: "proxima-nova-soft", verdana, sans-serif;
+    border-bottom: 1px dotted #bfbfbf !important;
+    font-size: 14px;
+    line-height: 1.42857;
+    font-weight: bold;
+}
+
+.gridExportBtns {
+    border-top: none;
+}
+
+table.dataTable thead th {
+    border-bottom: 1px dotted #bfbfbf !important;
+}
+
+.table > tbody > tr > th {
+    color: #333 !important;
+    font-family: "proxima-nova-soft", verdana, sans-serif;
+}
+
+.sso-summary-rest {
+    color: #9598a1;
+    font-family: "proxima-nova-soft",Verdana,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+}
+
+.sso-summary-first {
+    color: #9598a1;
+    font-family: "proxima-nova-soft",Verdana,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+    font-weight: normal;
+}
+
+.sso-ic-button {
+    border-radius: 0px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #64c55a;
+    border: 1px solid #64c55a;
+    font-family: "proxima-nova-soft", verdana, sans-serif;
+    cursor: pointer;
+}
+
+
+    .sso-ic-button:hover {
+        background-color: #64c55a;
+        border: 1px solid #64c55a;
+    }
+
+    .sso-ic-button:visited {
+        background-color: #64c55a;
+        border: 1px solid #64c55a;
+    }
+
+    .sso-ic-button:focus {
+        background-color: #64c55a;
+        border: 1px solid #64c55a;
+    }
+
+    .sso-ic-button:active {
+        background-color: #64c55a;
+        border: 1px solid #64c55a;
+    }
+
+    .sso-ic-button[disabled]:focus {
+        background-color: #64c55a;
+        border: 1px solid #64c55a;
+    }
+
+    .sso-ic-button:active:focus {
+        background-color: #64c55a;
+        border: 1px solid #64c55a;
+    }
+
+
+/*overriding default bootstrap css */
+.btn-primary[disabled]:focus {
+    background-color: #64c55a !important;
+    border: 1px solid #64c55a !important;
+}
+
+.btn-primary:active, .btn.primary:focus {
+    background-color: #64c55a !important;
+    border: 1px solid #64c55a !important;
+}
+
+.sso-ic-button-primary {
+    border-radius: 0px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #64c55a;
+    border: 1px solid #64c55a;
+    font-family: "proxima-nova-soft", verdana, sans-serif;
+    cursor: pointer;
+}
+
+    .sso-ic-button-primary:hover {
+        background-color: #64c55a;
+        border: 1px solid #64c55a;
+    }
+
+    .sso-ic-button-primary:visited {
+        background-color: #64c55a;
+        border: 1px solid #64c55a;
+    }
+
+    .sso-ic-button-primary:focus {
+        background-color: #64c55a;
+        border: 1px solid #64c55a;
+    }
+
+    .sso-ic-button-primary:active:focus {
+        background-color: #64c55a;
+        border: 1px solid #64c55a;
+    }
+
+    .sso-ic-button-primary:active {
+        background-color: #64c55a;
+        border: 1px solid #64c55a;
+    }
+
+    .sso-ic-button-primary[disabled]:focus {
+        background-color: #64c55a;
+        border: 1px solid #64c55a;
+    }
+
+
+.sso-ic-button-link {
+    color: #52bcec;
+    font-weight: bold;
+}
+
+.sso-ic-button-default {
+    color: #333;
+    background-color: #edf0f3;
+    color: #848d93;
+    border-radius: 0px;
+}
+
+/* General Inputs that GMP has on their Payment Route 
+    Start of Payment Route CSS Changes Below
+*/
+input[type=text] {
+    position: relative;
+    font-family: "proxima-nova-soft", verdana, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 40px;
+    height: 40px;
+    padding-left: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.checkout-currentstep {
+    border-bottom: solid 6px #64c55a;
+    padding-bottom: 7px;
+    font-weight: bold;
+    color: #333;
+    font-family: "proxima-nova-soft", verdana, sans-serif;
+}
+
+.checkout-step {
+    font-family: "proxima-nova-soft", verdana, sans-serif;
+}
+
+.sso-svcfee-info {
+    font-weight: bold;
+    padding-bottom: 20px;
+    font-size: 12px;
+    font-family: "proxima-nova-soft", verdana, sans-serif;
+    color: #333;
+}
+
+.sso-terms-condition {
+    font-size: 11px;
+    color: #333;
+}
+
+.sso-svcfee-info-mobile {
+    font-weight: bold;
+    padding-bottom: 20px;
+    font-family: "proxima-nova-soft", verdana, sans-serif;
+    color: black;
+}
+
+.sso-terms-condition-mobile {
+    font-size: 11px;
+    color: black;
+}
+
+.sso-payment-summary-body {
+    background-color: #f8fafb;
+    /*#fcf5da;*/
+    padding: 20px;
+    width: 100%;
+}
+
+    .sso-payment-summary-body > table > tbody > tr > td:first-child {
+        font-family: Verdana;
+        font-size: 24px;
+        color: #333;
+        font-weight: 500;
+    }
+
+    .sso-mobile-quick-link-table {
+        display: table;
+        padding-bottom: 10px;
+    }
+
+.sso-mobile-quick-link-row {
+    display: table-row;
+}
+
+.sso-mobile-quick-link-cell {
+    display: table-cell;
+    border-right: solid 1px #333;
+    width: 60px;
+    text-align: center;
+}
+
+    .sso-mobile-quick-link-cell a {
+        color: #707070;
+    }
+
+.sso-payment-option-header {
+    background-color: #ffffff;
+    padding-top: 20px;
+    border-bottom: solid 1px #333;
+    padding-bottom: 20px;
+    font-size: 17px;
+}
+
+.sso-payment-option-header-partial {
+    background-color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 17px;
+}
+
+
+.sso-payment-option-row {
+    background-color: #f2f2f2;
+}
+
+.sso-payment-option-header td + td, .sso-payment-option-header-partial td + td {
+    width: 85px;
+    text-align: right;
+    padding-bottom: 5px;
+}
+
+.sso-payment-option-header label, .sso-payment-option-header-partial label {
+    padding-left: 10px;
+}
+
+.sso-payment-option-radio-cell {
+    padding-right: 15px;
+}
+
+    .sso-payment-option-radio-cell > label {
+        padding-right: 10px;
+    }
+
+.sso-payment-method-container.sso-ic-label-required {
+    white-space: nowrap;
+}
+
+.sso-payment-option-discount-desc {
+}
+
+.sso-payment-option-discount-amount {
+}
+
+.sso-mobileInvoices {
+    display: none;
+    background-color: #f7f7e6;
+    padding: 15px 25px 10px;
+    margin: -10px -25px 15px;
+}
+
+.sso-refund-policy {
+    font-family: "proxima-nova-soft", verdana, sans-serif;
+    font-size: inherit;
+    color: #333;
+}
+
+/* sms control */
+
+.sso-sms-title {
+    padding-top: 15px;
+    display: none;
+}
+
+.sso-sms-body {
+    padding-bottom: 15px;
+}
+
+.sso-pay-by-text-info {
+    background-color: #f8fafb;
+    font-family: "proxima-nova-soft", verdana, sans-serif;
+    font-size: 16px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.sso-sms-signup-descriptor {
+    font-size: 18px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.sso-sms-roundtrip {
+    color: #4a4a4a;
+    font-style: italic;
+    font-family: "proxima-nova-soft", verdana, sans-serif;
+}
+
+.sso-sms-disclaimer {
+    color: #4a4a4a;
+    font-style: italic;
+    font-family: "proxima-nova-soft", verdana, sans-serif;
+}
+
+/* end sms control */
+
+
+/* paperless control */
+
+.sso-paperless-signup-descriptor {
+    font-size: 18px;
+    /*background-image: url('../../images/loginGreenLeaf.png');*/
+    /*background-repeat: no-repeat;*/
+    background-size: 22px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.sso-paperless-info-checkbox {
+    padding-bottom: 20px;
+}
+
+.sso-paperless-multiple-title {
+    display: none;
+}
+
+.sso-paperless-multiple-table-container {
+}
+
+.sso-paperless-multiple-table-container-td {
+    background-color: #f8fafb;
+    padding: 20px;
+}
+
+.sso-paperless-multiple-body {
+}
+
+.sso-paperless-multiple-table-items {
+}
+
+.sso-paperless-multiple-body-bottom {
+    padding-bottom: 10px;
+}
+
+​
+/* end paperless control */
+.sso-ic-button-success {
+    color: #ffffff;
+    border-radius: 0px;
+    background-color: #02d400;
+}
+
+
+/* flex pay */
+.sso-flexpay-schedule-amount-input {
+    width: 90px;
+    text-align: right;
+    padding-left: 16px;
+}
+
+.sso-label-input {
+    font-size: 19px;
+}
+
+.sso-flexpay-schedule-row {
+    border-bottom: solid 1px #333;
+    background-color: #f1f1f1;
+    padding: 11px;
+}
+
+.sso-date-picker-width {
+    border: solid 1px blue;
+}
+
+/* end flex pay*/
+
+
+.sso-payment-method-container {
+    background-color: #f8fafb;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    width: 500px;
+}
+
+.sso-label-content {
+    font-size: 17px;
+    font-family: "proxima-nova-soft", verdana, sans-serif;
+    color: #333;
+}
+
+
+/* confirmation page */
+
+.sso-ad {
+    font-size: 18px;
+    color: orange;
+    font-family: "proxima-nova-soft", verdana, sans-serif;
+}
+
+.sso-approved-title {
+    color: #07a800;
+}
+
+.sso-declined-title {
+    color: #e50a0a;
+}
+
+/* end confirmation page*/
+
+/* alert control */
+
+.sso-alert-danger {
+    background-color: lightcoral;
+    color: white;
+    font-size: 14px;
+}
+/* end alert control */
+
+/* save payment info review */
+
+.sso-save-payment-info-title {
+    font-weight: bold;
+    font-size: 11pt;
+    font-family: Arial;
+    color: #989696;
+    padding-bottom: 10px;
+}
+
+.sso-save-payment-info-body > td {
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.sso-save-payment-info-body {
+    font-family: Arial;
+    font-weight: bold;
+}
+
+/* end save payment info review */
