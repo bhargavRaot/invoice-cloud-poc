@@ -1,6 +1,6 @@
 #content-body {
     background-color: #ffffff;
-    padding-top: 35px;
+    padding-top: 0px;
     padding-bottom: 10px;
     padding-left: 10px;
     font-family: "proxima-nova-soft", verdana, sans-serif;
@@ -16,7 +16,7 @@ div {
 }
 
 a {
-    color: #52bcec;
+    color: #15537c;
 }
 
 .sso-title-return-link > a {
@@ -84,8 +84,8 @@ a {
 
 .sso-title {
     font-family: Verdana;
-    font-size: 240px;
-    color: #333;
+    font-size: 24px;
+    color: #5e8eaf;
     font-weight: 500;
     padding-bottom: 10px;
     padding-top: 20px;
@@ -124,20 +124,20 @@ a {
 }
 
 .sso-item-first {
-    color: #52bcec;
+    color: #15537c;
     font-weight: normal;
 }
 
     .sso-item-first:hover, .sso-item-first:focus {
-        color: #52bcec
+        color: #15537c
     }
 
 .sso-item-rest {
-    color: #52bcec;
+    color: #15537c;
 }
 
     .sso-item-rest:hover, .sso-item-rest:focus {
-        color: #52bcec;
+        color: #15537c;
     }
 
 
@@ -292,7 +292,7 @@ table.dataTable thead th {
 
 
 .sso-ic-button-link {
-    color: #52bcec;
+    color: #15537c;
     font-weight: bold;
 }
 
